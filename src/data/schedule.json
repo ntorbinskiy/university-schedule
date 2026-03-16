@@ -1,0 +1,76 @@
+{
+  "2": {
+    "name": "2 підгрупа",
+    "days": [
+      {
+        "id": "mon",
+        "name": "Понеділок",
+        "lessons": [
+          { "number": "I", "time": "8:00 – 9:20", "subject": null },
+          { "number": "II", "time": "9:30 – 10:50", "subject": null },
+          { "number": "III", "time": "11:20 – 12:40", "subject": null },
+          { "number": "IV", "time": "12:50 – 14:10", "subject": null },
+          { "number": "V", "time": "14:20 – 15:40", "subject": null },
+          { "number": "VI", "time": "15:50 – 17:10", "subject": null }
+        ]
+      },
+      {
+        "id": "tue",
+        "name": "Вівторок",
+        "lessons": [
+          { "number": "I", "time": "8:00 – 9:20", "subject": "Логічне програмування", "teacher": "Толкачев", "room": "ауд. 74", "type": "lec", "link": "https://us04web.zoom.us/j/72926167552?pwd=j1xK14jN99tEk2WQ7QpC6AVb4itm0f.1" },
+          { "number": "II", "time": "9:30 – 10:50", "subject": "Логічне програмування", "teacher": "Толкачев", "room": "ауд. 74", "type": "lab", "link": "https://us04web.zoom.us/j/72926167552?pwd=j1xK14jN99tEk2WQ7QpC6AVb4itm0f.1" },
+          { "number": "III", "time": "11:20 – 12:40", "subject": null },
+          { "number": "IV", "time": "12:50 – 14:10", "subject": "Теорія ймовірностей", "teacher": "доц. Коваленко", "room": "ауд. 97", "type": "lec", "link": "https://meet.google.com/ebk-ujyr-cnq" },
+          { "number": "V", "time": "14:20 – 15:40", "subject": null },
+          { "number": "VI", "time": "15:50 – 17:10", "subject": "БЗВП", "room": "Львівська 15", "type": "lec", "note": "з 2-го тижня" },
+          { "number": "VII", "time": "17:20 – 18:40", "subject": "БЗВП", "room": "Львівська 15", "type": "lec", "note": "з 2-го тижня" }
+        ]
+      },
+      {
+        "id": "wed",
+        "name": "Середа",
+        "lessons": [
+          { "number": "I", "time": "8:00 – 9:20", "subject": "ОБД", "teacher": "Каменєва", "type": "lab", "link": "https://meet.google.com/grp-pyto-hph" },
+          { "number": "II", "time": "9:30 – 10:50", "subject": "Комп. схемотехніка", "teacher": "проф. Гунченко", "room": "ауд. 72", "type": "lec", "link": "https://us02web.zoom.us/j/85630970050?pwd=WEtHK0llaWZmTWtmTnhPUlVqRmlGUT09" },
+          { "number": "III", "time": "11:20 – 12:40", "subject": "КС", "teacher": "Шугайло", "room": "ауд. 19", "type": "lab", "link": "https://us02web.zoom.us/j/5067616111?pwd=K0t6WEVlV0JWNG5Rb2dVWklSNEZYZz09" },
+          { "number": "IV", "time": "12:50 – 14:10", "subject": null },
+          { "number": "V", "time": "14:20 – 15:40", "subject": null },
+          { "number": "VI", "time": "15:50 – 17:10", "subject": null }
+        ]
+      },
+      {
+        "id": "thu",
+        "name": "Четвер",
+        "lessons": [
+          { "number": "I", "time": "8:00 – 9:20", "subject": null },
+          { "number": "II", "time": "9:30 – 10:50", "subject": "МОДС", "teacher": "доц. Яровий", "type": "lab", "link": "https://meet.google.com/esc-fsho-qkw" },
+          { "number": "III", "time": "11:20 – 12:40", "subject": "Методи оптим. та досл. операцій", "teacher": "доц. Яровий", "room": "ауд. 97", "type": "lec" },
+          { "number": "IV", "time": "12:50 – 14:10", "subject": null },
+          { "number": "V", "time": "14:20 – 15:40", "subject": null },
+          { "number": "VI", "time": "15:50 – 17:10", "subject": null }
+        ]
+      },
+      {
+        "id": "fri",
+        "name": "П'ятниця",
+        "lessons": [
+          { "number": "I", "time": "8:00 – 9:20", "subject": "Організація бази даних", "teacher": "доц. Єпік", "type": "lec" },
+          { "number": "II", "time": "9:30 – 10:50", "subject": "ОБД", "teacher": "Каменєва", "type": "lab", "link": "https://meet.google.com/grp-pyto-hph" },
+          { "number": "III", "time": "11:20 – 12:40", "subject": null },
+          { "number": "IV", "time": "12:50 – 14:10", "subject": "Теорія ймовірностей", "teacher": "доц. Коваленко", "room": "ауд. 97", "type": "prac", "link": "https://meet.google.com/ebk-ujyr-cnq" },
+          { "number": "V", "time": "14:20 – 15:40", "subject": "БЖ та охорона праці", "teacher": "доц. Устянська", "type": "lec", "link": "https://us05web.zoom.us/j/5161457280?pwd=RnJMeWloTFRhcWNSQzVodit4R2svQT09", "note": "л. (1–7 тиж) / прак. (з 8 тиж)" },
+          { "number": "VI", "time": "15:50 – 17:10", "subject": null }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "name": "1 підгрупа",
+    "days": []
+  },
+  "3": {
+    "name": "3 підгрупа",
+    "days": []
+  }
+}
