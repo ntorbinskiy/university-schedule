@@ -1,17 +1,37 @@
 ---
+import '../styles/global.css';
+import scheduleData from '../data/schedule.json';
+import type { Schedule } from '../types/schedule';
 
+const data = scheduleData as Schedule;
+const subgroups = Object.entries(data).map(([id, info]) => ({
+  id,
+  name: info.name,
+  hasData: info.days.length > 0,
+}));
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Розклад занять — 2 курс</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Розклад занять</h1>
+        <div class="subtitle">2 курс</div>
+      </div>
+      <div class="subgroup-grid">
+        {subgroups.map(({ id, name, hasData }) => (
+          <a href={`${import.meta.env.BASE_URL}${id}`} class="subgroup-card">
+            <h2>{name}</h2>
+            <p>{hasData ? 'Переглянути розклад' : 'Розклад скоро буде'}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </body>
 </html>
