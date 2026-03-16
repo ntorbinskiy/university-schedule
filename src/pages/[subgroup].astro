@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+import { Schedule } from '../components/Schedule';
+import scheduleData from '../data/schedule.json';
+import type { Schedule as ScheduleType } from '../types/schedule';
+
+export function getStaticPaths() {
+  const data = scheduleData as ScheduleType;
+  return Object.keys(data).map((key) => ({
+    params: { subgroup: key },
+    props: { subgroupData: data[key] },
+  }));
+}
+
+const { subgroupData } = Astro.props;
+---
+
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Розклад — {subgroupData.name}</title>
+  </head>
+  <body>
+    <Schedule subgroup={subgroupData} client:load />
+  </body>
+</html>
