@@ -268,3 +268,30 @@ a.lesson { cursor: pointer; }
   color: var(--text-dim);
   font-size: 0.9rem;
 }
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  margin-bottom: 24px;
+}
+
+.back-link:hover {
+  background: var(--card-hover);
+  color: var(--text);
+  transform: translateX(-4px);
+}
+
+.back-link svg {
+  width: 16px;
+  height: 16px;
+}
