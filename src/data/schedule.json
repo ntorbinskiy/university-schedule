@@ -55,7 +55,7 @@
         "id": "fri",
         "name": "П'ятниця",
         "lessons": [
-          { "number": "I", "time": "8:00 – 9:20", "subject": "Організація бази даних", "teacher": "доц. Єпік", "type": "lec" },
+          { "number": "I", "time": "8:00 – 9:20", "subject": "Організація бази даних", "teacher": "доц. Єпік", "type": "lec", "link": "https://teams.live.com/meet/9387712870848?p=3NV27z3KYW2htealSg" },
           { "number": "II", "time": "9:30 – 10:50", "subject": "ОБД", "teacher": "Каменєва", "type": "lab", "link": "https://meet.google.com/grp-pyto-hph" },
           { "number": "III", "time": "11:20 – 12:40", "subject": null },
           { "number": "IV", "time": "12:50 – 14:10", "subject": "Теорія ймовірностей", "teacher": "доц. Коваленко", "room": "ауд. 97", "type": "prac", "link": "https://meet.google.com/ebk-ujyr-cnq" },
